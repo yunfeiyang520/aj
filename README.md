@@ -1,37 +1,30 @@
-# 爱租客
 
-#### 项目介绍
-爱租客项目，只要使用python3.5+flask框架构建，主要用来教学使用
+### 开发接口
 
-#### 软件架构
-软件架构说明
+#### 1. 用户模块接口
+  - [注册](docs/user/user_register.md)
+  - [登录](docs/user/user_login.md)
+  - [个人中心]
+	  - [获取用户信息](docs/user/user_get_msg.md)
+	  - [修改用户信息](docs/user/user_put_msg.md)
+	  - [实名认证](docs/user/user_auth.md)
+	  - [注销](docs/user/user_logout.md)
+	  - [我的房源--实名认证/房屋信息展示](docs/house/auth_myhouse.md)
+	  
+
+#### 2. 房屋模块接口
+
+  - [首页](docs/house/index.md)
+  - [首页搜索](docs/house/search.md)
+  - [获取区域和设施信息](docs/house/area_facility.md)
+  - [房屋详情](docs/house/detail.md)
+
+#### 3. 预约模块接口
+
+  - [预约页面](docs/order/order.md)
+  - [创建预约](docs/order/create_order.md)
+  - [所有预约单](docs/order/allorders.md)
+  - [房东预约单](docs/order/lorders.md)
+  - [修改预约单状态](docs/order/changeorder.md)
 
 
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [http://git.mydoc.io/](http://git.mydoc.io/)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
